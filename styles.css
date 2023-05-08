@@ -1,131 +1,187 @@
-    * {
-        box-sizing: border-box;
-    }
-    
-    body {
-        background-color: hsl(0, 0%, 100%);
-        display: flex;
-        /* justify-content: center; */
-        align-items: center;
-    }
-    
-    .container {
-        display: flex;
-        max-width: 800px;
-        width: 100%;
-        /* padding: 10px; */
-        border-radius: 10px;
-        background-color: hsl(0, 0%, 100%);
-        margin: 90px auto;
-    }
-    
-    .side-panel {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        padding: 20px;
-        /* flex-grow: 1; */
-        /* max-width: 400px; */
-        width: 400px;
-        border-radius: 10px;
-        text-align: center;
-        background-color: hsl(252, 100%, 67%);
-        height: 400px;
-        justify-content: center;
-    }
-    
-    .panel-item h4 {
-        color: hsl(221, 100%, 96%);
-    }
-    
-    .circle {
-        border-radius: 150px;
-        height: 150px;
-        width: 150px;
-        border: 1px hsla(241, 72%, 46%, 0);
-        margin-left: 100px;
-        background-color: hsla(256, 72%, 46%, 1);
-    }
-    
-    #num {
-        text-align: center;
-        font-size: 50px;
-        color: hsl(0, 0%, 100%);
-    }
-    
-    #percent {
-        color: hsl(241, 100%, 89%);
-    }
-    
-    .circle p {
-        padding: 50px
-    }
-    
-    .panel-item h3 {
-        color: hsl(0, 0%, 100%);
-    }
-    
-    .panel-item p {
-        color: hsl(221, 100%, 96%);
-    }
-    
-    .panel-body1 {
-        color: hsl(0, 100%, 67%);
-        font-size: 1.1rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-content: center;
-        flex-grow: 1;
-        background-color: hsla(0, 100%, 67%, 0.1);
-        border-radius: 0.5rem;
-        margin: 1rem 0.2rem;
-        padding: 0.5rem;
-    }
-    
-    .panel-body2 {
-        color: hsl(39, 100%, 56%);
-        font-size: 1.1rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-content: center;
-        flex-grow: 1;
-        background-color: hsla(39, 100%, 56%, 0.1);
-        border-radius: 0.5rem;
-        margin: 1rem 0.2rem;
-        padding: 0.5rem;
-    }
-    
-    .panel-body3 {
-        color: hsl(166, 100%, 37%);
-        font-size: 1.1rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-content: center;
-        flex-grow: 1;
-        background-color: hsla(166, 100%, 37%, 0.1);
-        border-radius: 0.5rem;
-        margin: 1rem 0.2rem;
-        padding: 0.5rem;
-    }
-    
-    .panel-body4 {
-        color: hsl(234, 85%, 45%);
-        font-size: 1.1rem;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-content: center;
-        flex-grow: 1;
-        background-color: hsla(234, 85%, 45%, 0.1);
-        border-radius: 0.5rem;
-        margin: 1rem 0.2rem;
-        padding: 0.5rem;
-    }
-    
-    .left {
-        font-size: 1rem;
-        color: black;
-    }
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    /* padding: 10px; */
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    margin: 90px auto;
+    box-shadow: 1px 1px 2px rgb(218, 218, 218);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    min-width: 10rem;
+    max-width: 29.1rem;
+    margin: auto;
+    margin-top: 3rem;
+    height: fit-content;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.side-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    /* flex-grow: 1; */
+    /* max-width: 400px; */
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: hsl(252, 100%, 67%);
+    height: 400px;
+    justify-content: center;
+    background: linear-gradient(180deg, hsl(252, 100%, 67%) 10%, hsl(241, 81%, 54%) 50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 0.5rem;
+    width: 14rem;
+    height: 20rem;
+    border-radius: 1rem;
+}
+
+.panel-item p {
+    font-size: 15px;
+    color: hsl(241, 100%, 89%);
+    padding: 0.4rem;
+}
+
+.panel-item b {
+    font-size: 15px;
+    color: hsla(226, 7%, 61%, 0.6);
+}
+
+.panel-item h3 {
+    color: hsl(0, 0%, 100%);
+}
+
+.seven {
+    background: linear-gradient(180deg, hsla(256, 72%, 46%, 1) 60%, hsla(241, 72%, 46%, 0)100%);
+    /* border: 2px solid black; */
+    font-size: 2.5em;
+    display: flex;
+    margin: 0.5rem;
+    margin-top: 1.5rem;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50%;
+    width: 8rem;
+    height: 8rem;
+}
+
+.panel-body1 {
+    color: hsl(0, 100%, 67%);
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    flex-grow: 1;
+    background-color: hsla(0, 100%, 67%, 0.1);
+    border-radius: 0.5rem;
+    margin: 1rem 0.2rem;
+    padding: 0.5rem;
+}
+
+.panel-body2 {
+    color: hsl(39, 100%, 56%);
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    flex-grow: 1;
+    background-color: hsla(39, 100%, 56%, 0.1);
+    border-radius: 0.5rem;
+    margin: 1rem 0.2rem;
+    padding: 0.5rem;
+}
+
+.panel-body3 {
+    color: hsl(166, 100%, 37%);
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    flex-grow: 1;
+    background-color: hsla(166, 100%, 37%, 0.1);
+    border-radius: 0.5rem;
+    margin: 1rem 0.2rem;
+    padding: 0.5rem;
+}
+
+.panel-body4 {
+    color: hsl(234, 85%, 45%);
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    flex-grow: 1;
+    background-color: hsla(234, 85%, 45%, 0.1);
+    border-radius: 0.5rem;
+    margin: 1rem 0.2rem;
+    padding: 0.5rem;
+}
+
+.left {
+    font-size: 1rem;
+    color: black;
+}
+
+.side-panel2 {
+    color: black;
+    font-size: 1rem;
+    width: 15rem;
+    height: 20rem;
+    padding: 0.5rem;
+    background-color: hsl(0, 0%, 100%);
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.contd {
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+    display: block;
+    background-color: hsl(224, 30%, 27%);
+    ;
+    border-radius: 1rem;
+    margin: 1rem 0.4rem;
+}
+
+.contd a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    border-radius: 1rem;
+    height: 2.2rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.contd a:hover {
+    background: linear-gradient(180deg, hsl(252, 100%, 67%) 10%, hsl(241, 81%, 54%) 50%);
+}
