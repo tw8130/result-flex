@@ -1,70 +1,126 @@
-* {
-    box-sizing: border-box;
-}
-
-body {
-    background-color: hsl(0, 0%, 100%);
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-}
-
-.container {
-    display: flex;
-    max-width: 800px;
-    width: 100%;
-    /* padding: 10px; */
-    border-radius: 10px;
-    background-color: hsl(0, 0%, 100%);
-    margin: 90px auto;
-}
-
-.side-panel {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 20px;
-    /* flex-grow: 1; */
-    /* max-width: 400px; */
-    width: 400px;
-    border-radius: 10px;
-    text-align: center;
-    background-color: hsl(252, 100%, 67%);
-    height: 400px;
-    justify-content: center;
-}
-
-.panel-item h4 {
-    color: hsl(221, 100%, 96%);
-}
-
-.circle {
-    border-radius: 150px;
-    height: 150px;
-    width: 150px;
-    border: 1px hsla(241, 72%, 46%, 0);
-    margin-left: 100px;
-    background-color: hsla(256, 72%, 46%, 1);
-}
-
-#num {
-    text-align: center;
-    font-size: 50px;
-    color: hsl(0, 0%, 100%);
-}
-
-#percent {
-    color: hsl(241, 100%, 89%);
-}
-
-.circle p {
-    padding: 50px
-}
-
-.panel-item h3 {
-    color: hsl(0, 0%, 100%);
-}
-
-.panel-item p {
-    color: hsl(221, 100%, 96%);
-}
+    * {
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: hsl(0, 0%, 100%);
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+    }
+    
+    .container {
+        display: flex;
+        max-width: 800px;
+        width: 100%;
+        /* padding: 10px; */
+        border-radius: 10px;
+        background-color: hsl(0, 0%, 100%);
+        margin: 90px auto;
+    }
+    
+    .side-panel {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 20px;
+        /* flex-grow: 1; */
+        /* max-width: 400px; */
+        width: 400px;
+        border-radius: 10px;
+        text-align: center;
+        background-color: hsl(252, 100%, 67%);
+        height: 400px;
+        justify-content: center;
+    }
+    
+    .panel-item h4 {
+        color: hsl(221, 100%, 96%);
+    }
+    
+    .circle {
+        border-radius: 150px;
+        height: 150px;
+        width: 150px;
+        border: 1px hsla(241, 72%, 46%, 0);
+        margin-left: 100px;
+        background-color: hsla(256, 72%, 46%, 1);
+    }
+    
+    #num {
+        text-align: center;
+        font-size: 50px;
+        color: hsl(0, 0%, 100%);
+    }
+    
+    #percent {
+        color: hsl(241, 100%, 89%);
+    }
+    
+    .circle p {
+        padding: 50px
+    }
+    
+    .panel-item h3 {
+        color: hsl(0, 0%, 100%);
+    }
+    
+    .panel-item p {
+        color: hsl(221, 100%, 96%);
+    }
+    
+    .panel-body1 {
+        color: hsl(0, 100%, 67%);
+        font-size: 1.1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        flex-grow: 1;
+        background-color: hsla(0, 100%, 67%, 0.1);
+        border-radius: 0.5rem;
+        margin: 1rem 0.2rem;
+        padding: 0.5rem;
+    }
+    
+    .panel-body2 {
+        color: hsl(39, 100%, 56%);
+        font-size: 1.1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        flex-grow: 1;
+        background-color: hsla(39, 100%, 56%, 0.1);
+        border-radius: 0.5rem;
+        margin: 1rem 0.2rem;
+        padding: 0.5rem;
+    }
+    
+    .panel-body3 {
+        color: hsl(166, 100%, 37%);
+        font-size: 1.1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        flex-grow: 1;
+        background-color: hsla(166, 100%, 37%, 0.1);
+        border-radius: 0.5rem;
+        margin: 1rem 0.2rem;
+        padding: 0.5rem;
+    }
+    
+    .panel-body4 {
+        color: hsl(234, 85%, 45%);
+        font-size: 1.1rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        flex-grow: 1;
+        background-color: hsla(234, 85%, 45%, 0.1);
+        border-radius: 0.5rem;
+        margin: 1rem 0.2rem;
+        padding: 0.5rem;
+    }
